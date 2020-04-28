@@ -7,12 +7,12 @@ namespace DatingApp.API.Migrations
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
-            migrationBuilder.AlterColumn<string>(
+            /*migrationBuilder.AlterColumn<string>(
                 name: "Name",
                 table: "Values",
                 nullable: true,
                 oldClrType: typeof(int),
-                oldType: "INTEGER");
+                oldType: "INTEGER");*/
 
             migrationBuilder.CreateTable(
                 name: "Users",
@@ -35,13 +35,13 @@ namespace DatingApp.API.Migrations
             migrationBuilder.DropTable(
                 name: "Users");
 
-            migrationBuilder.AlterColumn<int>(
+            /*migrationBuilder.AlterColumn<int>(
                 name: "Name",
                 table: "Values",
                 type: "INTEGER",
                 nullable: false,
                 oldClrType: typeof(string),
-                oldNullable: true);
+                oldNullable: true);*/
         }
     }
 }
